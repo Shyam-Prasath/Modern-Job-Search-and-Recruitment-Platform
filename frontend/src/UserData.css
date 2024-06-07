@@ -1,0 +1,71 @@
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-container input[type="file"]{
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 600px) {
+    .form-container {
+      padding: 15px;
+    }
+  
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container input[type="file"],
+    .form-container textarea {
+      padding: 8px;
+      margin-bottom: 8px;
+    }
+  
+    .form-container button[type="submit"] {
+      padding: 8px 16px;
+    }
+  }
+  

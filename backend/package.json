@@ -4,7 +4,8 @@
   "main": "routes/server.js",
   "scripts": {
     "dev": "nodemon routes/server.js",
-    "start": "node routes/server.js"
+    "start": "node routes/server.js",
+    "build": "npm i"
   },
   "keywords": [],
   "author": "",
